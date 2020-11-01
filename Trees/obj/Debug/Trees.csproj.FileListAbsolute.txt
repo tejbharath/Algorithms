@@ -1,0 +1,5 @@
+C:\git\Algorithms\Trees\bin\Debug\Trees.exe.config
+C:\git\Algorithms\Trees\bin\Debug\Trees.exe
+C:\git\Algorithms\Trees\bin\Debug\Trees.pdb
+C:\git\Algorithms\Trees\obj\Debug\Trees.exe
+C:\git\Algorithms\Trees\obj\Debug\Trees.pdb

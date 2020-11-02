@@ -3,3 +3,9 @@ C:\git\Algorithms\Trees\bin\Debug\Trees.exe
 C:\git\Algorithms\Trees\bin\Debug\Trees.pdb
 C:\git\Algorithms\Trees\obj\Debug\Trees.exe
 C:\git\Algorithms\Trees\obj\Debug\Trees.pdb
+D:\Algorithms\Algos\Trees\bin\Debug\Trees.exe.config
+D:\Algorithms\Algos\Trees\bin\Debug\Trees.exe
+D:\Algorithms\Algos\Trees\bin\Debug\Trees.pdb
+D:\Algorithms\Algos\Trees\obj\Debug\Trees.csprojAssemblyReference.cache
+D:\Algorithms\Algos\Trees\obj\Debug\Trees.exe
+D:\Algorithms\Algos\Trees\obj\Debug\Trees.pdb

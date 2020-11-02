@@ -14,12 +14,6 @@ namespace Algorithms
                 lst.Add(1);
                 i++;
             }
-            var count = 1;
-
-
-
-
-
 
             return -1;
         }

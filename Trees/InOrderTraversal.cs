@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Trees
 {
-    public class PreOrderTraversal
+    public class InOrderTraversal
     {
         public TreeNode root;
 

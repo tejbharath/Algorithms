@@ -67,9 +67,8 @@ namespace Algorithms
             //    Console.WriteLine(item);
             //}
 
-            //FibanocciMemoization f = new FibanocciMemoization();
-
-            //Console.WriteLine(f.FindFibanocciMem(6));
+            FibanocciMemoization f = new FibanocciMemoization();
+            Console.WriteLine(f.FindFibanocciMem(6));
 
             //Factorial f = new Factorial();
             //Console.WriteLine(f.GetFactorial(1));

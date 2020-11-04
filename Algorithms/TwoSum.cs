@@ -23,21 +23,6 @@ namespace Algorithms
 
             }
             return new int[] { 0, 0 };
-            //var j = 1;
-            //while(i < nums.Length)
-            //{
-            //    while (j < nums.Length)
-            //    {
-            //        if (target - nums[i] == nums[j])
-            //        {
-            //            return new int[] { i, j };
-            //        }
-            //        j++;
-            //    }
-            //    i++;
-            //    j = i + 1;
-            //}
-            //return new int[] { };
         }
     }
 

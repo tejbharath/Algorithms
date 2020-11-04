@@ -23,9 +23,9 @@ namespace Algorithms
             ////var profit = stock.MaxProfit(stocks);
             ////Console.WriteLine(profit);
 
-            ////Array Duplicates
-            //ArrayDuplicates dup = new ArrayDuplicates();
-            //Console.WriteLine(dup.ContainsDuplicate(new int[] { 0, 4, 5, 0, 3, 6 }));
+            //Array Duplicates
+            ArrayDuplicates dup = new ArrayDuplicates();
+            Console.WriteLine(dup.ContainsDuplicateOptimized(new int[] { 1, 4, 5, 0, 3, 6 }));
 
             //Chocolates c = new Chocolates();
             //Console.WriteLine(c.GetMinumum(new List<int>() { 5, 6, 8, 1 }));
@@ -67,11 +67,20 @@ namespace Algorithms
             //    Console.WriteLine(item);
             //}
 
-            FibanocciMemoization f = new FibanocciMemoization();
-            Console.WriteLine(f.FindFibanocciMem(6));
+            //FibanocciMemoization f = new FibanocciMemoization();
+            //Console.WriteLine(f.FindFibanocciMem(6));
 
             //Factorial f = new Factorial();
             //Console.WriteLine(f.GetFactorial(1));
+
+            //LongestStringNoRepetition s = new LongestStringNoRepetition();
+            //Console.WriteLine(s.LengthOfLongestSubstring("abcabbca"));
+
+            //StringPalindrome pd = new StringPalindrome();
+            //Console.WriteLine(pd.IsPalindrome("A man, a plan, a canal: Panama"));
+
+            //LongestPalindromeString lpd = new LongestPalindromeString();
+            //Console.WriteLine(lpd.LongestPalindrome("babad"));
         }
     }
 }

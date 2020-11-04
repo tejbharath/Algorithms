@@ -52,6 +52,8 @@
     <Compile Include="FibanocciRecursion.cs" />
     <Compile Include="FirstLastArray.cs" />
     <Compile Include="FirstLastArrayBinary.cs" />
+    <Compile Include="LongestPalindromeString.cs" />
+    <Compile Include="LongestStringNoRepetition.cs" />
     <Compile Include="MaxSubArray.cs" />
     <Compile Include="ProductItself.cs" />
     <Compile Include="ReverseString.cs" />
@@ -60,6 +62,7 @@
     <Compile Include="RotatedSortedArray.cs" />
     <Compile Include="StocksAlgo.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="StringPalindrome.cs" />
     <Compile Include="TwoSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

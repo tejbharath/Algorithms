@@ -4,9 +4,9 @@ C:\Users\tejbh\source\repos\Algorithms\Algorithms\bin\Debug\Algorithms.pdb
 C:\Users\tejbh\source\repos\Algorithms\Algorithms\obj\Debug\Algorithms.csprojAssemblyReference.cache
 C:\Users\tejbh\source\repos\Algorithms\Algorithms\obj\Debug\Algorithms.exe
 C:\Users\tejbh\source\repos\Algorithms\Algorithms\obj\Debug\Algorithms.pdb
-D:\Algorithms\Algos\Algorithms\obj\Debug\Algorithms.csprojAssemblyReference.cache
-D:\Algorithms\Algos\Algorithms\obj\Debug\Algorithms.exe
-D:\Algorithms\Algos\Algorithms\obj\Debug\Algorithms.pdb
 D:\Algorithms\Algos\Algorithms\bin\Debug\Algorithms.exe.config
 D:\Algorithms\Algos\Algorithms\bin\Debug\Algorithms.exe
 D:\Algorithms\Algos\Algorithms\bin\Debug\Algorithms.pdb
+D:\Algorithms\Algos\Algorithms\obj\Debug\Algorithms.csprojAssemblyReference.cache
+D:\Algorithms\Algos\Algorithms\obj\Debug\Algorithms.exe
+D:\Algorithms\Algos\Algorithms\obj\Debug\Algorithms.pdb

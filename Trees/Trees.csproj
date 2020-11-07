@@ -55,7 +55,9 @@
     <Compile Include="ReorderLinkedList.cs" />
     <Compile Include="ReverseLinkedList.cs" />
     <Compile Include="ReverseLinkedListRange.cs" />
+    <Compile Include="RightSideView.cs" />
     <Compile Include="TreeNode.cs" />
+    <Compile Include="ZigzagLevelOrder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

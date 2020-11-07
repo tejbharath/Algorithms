@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 
 namespace Algorithms
 {
@@ -24,8 +26,8 @@ namespace Algorithms
             ////Console.WriteLine(profit);
 
             //Array Duplicates
-            ArrayDuplicates dup = new ArrayDuplicates();
-            Console.WriteLine(dup.ContainsDuplicateOptimized(new int[] { 1, 4, 5, 0, 3, 6 }));
+            //ArrayDuplicates dup = new ArrayDuplicates();
+            //Console.WriteLine(dup.ContainsDuplicateOptimized(new int[] { 1, 4, 5, 0, 3, 6 }));
 
             //Chocolates c = new Chocolates();
             //Console.WriteLine(c.GetMinumum(new List<int>() { 5, 6, 8, 1 }));
@@ -81,6 +83,32 @@ namespace Algorithms
 
             //LongestPalindromeString lpd = new LongestPalindromeString();
             //Console.WriteLine(lpd.LongestPalindrome("babad"));
+
+            //ContiguousArray c = new ContiguousArray();
+            //Console.WriteLine(c.FindMaxLength(new int[]{0, 0, 1, 0, 0, 0, 1, 1}));
+            //var nums = new int[] {1, 2, 4, 5, 6, 8};
+            //ShuffleArray arr = new ShuffleArray(nums);
+            //PrintArray(nums);
+            //Console.WriteLine("Shuffling the Array");
+            //PrintArray(arr.Shuffle());
+            //Console.WriteLine("Reset starting in 1 second");
+            //PrintArray(arr.Reset());
+            //Console.WriteLine("Reshuffling the Array");
+            //PrintArray(arr.Shuffle());
+
+            //MaxProdSubArray arr = new MaxProdSubArray();
+            //Console.WriteLine(arr.MaxProduct(new int[]{-1, -1}));
+
+            LongestStringPalindrome str = new LongestStringPalindrome();
+            Console.WriteLine(str.LongestPalindrome("abdd"));
         }
+        private static void PrintArray(int[] nums)
+        {
+            foreach (var i in nums)
+            {
+                Console.WriteLine(i);
+            }
+        }
+
     }
 }

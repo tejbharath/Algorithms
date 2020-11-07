@@ -43,13 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinarySearchTree.cs" />
     <Compile Include="CycledLinkedList.cs" />
     <Compile Include="IntersectionLinkedLists.cs" />
+    <Compile Include="LevelOrderTraversal.cs" />
     <Compile Include="LinkedList.cs" />
     <Compile Include="ListNode.cs" />
     <Compile Include="InOrderTraversal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReorderLinkedList.cs" />
+    <Compile Include="ReverseLinkedList.cs" />
+    <Compile Include="ReverseLinkedListRange.cs" />
     <Compile Include="TreeNode.cs" />
   </ItemGroup>
   <ItemGroup>

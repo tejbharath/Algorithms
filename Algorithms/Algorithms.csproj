@@ -47,6 +47,7 @@
     <Compile Include="BinarySearch.cs" />
     <Compile Include="Chocolates.cs" />
     <Compile Include="ClimbingStairs.cs" />
+    <Compile Include="ContiguousArray.cs" />
     <Compile Include="Factorial.cs" />
     <Compile Include="FibanocciMemoization.cs" />
     <Compile Include="FibanocciRecursion.cs" />
@@ -54,12 +55,15 @@
     <Compile Include="FirstLastArrayBinary.cs" />
     <Compile Include="LongestPalindromeString.cs" />
     <Compile Include="LongestStringNoRepetition.cs" />
+    <Compile Include="LongestStringPalindrome.cs" />
+    <Compile Include="MaxProdSubArray.cs" />
     <Compile Include="MaxSubArray.cs" />
     <Compile Include="ProductItself.cs" />
     <Compile Include="ReverseString.cs" />
     <Compile Include="ReverseStringRecurssion.cs" />
     <Compile Include="ReverseWord.cs" />
     <Compile Include="RotatedSortedArray.cs" />
+    <Compile Include="ShuffleArray.cs" />
     <Compile Include="StocksAlgo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="StringPalindrome.cs" />

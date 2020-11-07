@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace Algorithms
 {
@@ -7,13 +8,7 @@ namespace Algorithms
     {
         public bool IsPalindrome(string s)
         {
-
-            var delimiters = new char[] { ',', ' ', ':' };
-            for (int j = 0; j < delimiters.Length; j++)
-            {
-                s = s.Replace(delimiters[j].ToString(), string.Empty);
-            }
-
+            s = Regex.Replace(s, "[^a-zA-Z0-9]", string.Empty);
             s = s.ToLower();
 
             StringBuilder sb = new StringBuilder();

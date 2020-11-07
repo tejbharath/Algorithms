@@ -4,33 +4,17 @@ namespace Algorithms
 {
     public class MaxSubArray
     {
-        public int MaximumSubArray(int[] nums)
+        public int MaxArray(int[] nums)
         {
-            //{ -2, 1, -3, 4, -1, 2, 1, -5, 4 }
-
-            var sum = 0;
+            var sum = nums[0];
             var max = nums[0];
-            var i = 0;
-            var j = 0;
-            while(j < nums.Length)
+
+            for (int i = 1; i < nums.Length; i++)
             {
-                sum += nums[j];
-
-                if(sum > max)
-                {
-                    max = sum;
-                }
-                else
-                {
-                    sum = 0;
-                    i++;
-                    j = i;
-                }
-                j++;
+                sum = Math.Max(nums[i], sum + nums[i]);
+                max = Math.Max(max, sum);
             }
-
             return max;
-
         }
     }
 }

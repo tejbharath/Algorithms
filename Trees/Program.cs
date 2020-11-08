@@ -7,10 +7,15 @@ namespace Trees
     {
         static void Main(string[] args)
         {
-            LevelOrderTraversal t = new LevelOrderTraversal();
-            t.BuildTree();
-            var lst = t.BreadFirstTraversal();
-            PrintList(lst);
+            //LevelOrderTraversal t = new LevelOrderTraversal();
+            //t.BuildTree();
+            //var lst = t.BreadFirstTraversal();
+            //PrintList(lst);
+
+            //Cousins c = new Cousins(); 
+            //c.BuildTree();
+            //Console.WriteLine(c.IsCousins(2, 4));
+
 
             //LinkedList link = new LinkedList();
             //var head = link.AddNode(1);
@@ -21,20 +26,28 @@ namespace Trees
             //CycledLinkedList c = new CycledLinkedList();
             //Console.WriteLine(c.OptimizedHasCycle(head));
 
-            //LinkedList link = new LinkedList();
-            //var head = link.AddNode(1);
-            //link.AddNode(2);
-            //link.AddNode(3);
-            //link.AddNode(4);
-            //link.AddNode(5);
-            //link.PrintAllListNodes();
+            LinkedList link = new LinkedList();
+            var head = link.AddNode(1);
+            link.AddNode(2);
+            link.AddNode(3);
+            link.AddNode(4);
+            link.AddNode(5);
+            link.AddNode(6);
+            link.AddNode(7);
+            Console.WriteLine("Original LinkedList");
+            link.PrintAllListNodes();
 
-            //ReorderLinkedList r = new ReorderLinkedList();
-            //r.ReorderList(head);
-            //link.PrintAllListNodes();
+            ReorderLinkedList r = new ReorderLinkedList();
+            r.ReorderList(head);
+            link.PrintAllListNodes();
 
             //ReverseLinkedListRange r = new ReverseLinkedListRange();
             //r.ReverseBetween(head, 2, 4);
+            //link.PrintAllListNodes();
+
+            //RemoveDuplicatesLinkedList r = new RemoveDuplicatesLinkedList();
+            //r.RemoveDuplicates(head);
+            //Console.WriteLine("Removed Duplicates List");
             //link.PrintAllListNodes();
 
         }

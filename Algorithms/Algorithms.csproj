@@ -69,6 +69,7 @@
     <Compile Include="StringPalindrome.cs" />
     <Compile Include="TwoSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValidParanthesis.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

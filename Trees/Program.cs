@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Trees
 {
@@ -7,8 +8,11 @@ namespace Trees
     {
         static void Main(string[] args)
         {
-            //LevelOrderTraversal t = new LevelOrderTraversal();
-            //t.BuildTree();
+            LevelOrderTraversal t = new LevelOrderTraversal();
+            t.BuildTree();
+            RightSideView r = new RightSideView();
+            var list = r.RightView(t.root);
+            PrintList(list.ToList());
             //var lst = t.BreadFirstTraversal();
             //PrintList(lst);
 
@@ -26,20 +30,20 @@ namespace Trees
             //CycledLinkedList c = new CycledLinkedList();
             //Console.WriteLine(c.OptimizedHasCycle(head));
 
-            LinkedList link = new LinkedList();
-            var head = link.AddNode(1);
-            link.AddNode(2);
-            link.AddNode(3);
-            link.AddNode(4);
-            link.AddNode(5);
-            link.AddNode(6);
-            link.AddNode(7);
-            Console.WriteLine("Original LinkedList");
-            link.PrintAllListNodes();
+            //LinkedList link = new LinkedList();
+            //var head = link.AddNode(1);
+            //link.AddNode(2);
+            //link.AddNode(3);
+            //link.AddNode(4);
+            //link.AddNode(5);
+            //link.AddNode(6);
+            //link.AddNode(7);
+            //Console.WriteLine("Original LinkedList");
+            //link.PrintAllListNodes();
 
-            ReorderLinkedList r = new ReorderLinkedList();
-            r.ReorderList(head);
-            link.PrintAllListNodes();
+            //ReorderLinkedList r = new ReorderLinkedList();
+            //r.ReorderList(head);
+            //link.PrintAllListNodes();
 
             //ReverseLinkedListRange r = new ReverseLinkedListRange();
             //r.ReverseBetween(head, 2, 4);

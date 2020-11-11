@@ -62,6 +62,7 @@
     <Compile Include="ReverseLinkedList.cs" />
     <Compile Include="ReverseLinkedListRange.cs" />
     <Compile Include="RightSideView.cs" />
+    <Compile Include="RobTreeProblem.cs" />
     <Compile Include="SumNodes.cs" />
     <Compile Include="SymmetricTree.cs" />
     <Compile Include="TreeNode.cs" />

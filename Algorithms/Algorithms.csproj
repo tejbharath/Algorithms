@@ -46,7 +46,9 @@
     <Compile Include="ArrayDuplicates.cs" />
     <Compile Include="BinarySearch.cs" />
     <Compile Include="Chocolates.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="ClimbingStairs.cs" />
+    <Compile Include="ClosestToZero.cs" />
     <Compile Include="ContiguousArray.cs" />
     <Compile Include="Factorial.cs" />
     <Compile Include="FibanocciMemoization.cs" />
@@ -64,9 +66,13 @@
     <Compile Include="ReverseWord.cs" />
     <Compile Include="RotatedSortedArray.cs" />
     <Compile Include="ShuffleArray.cs" />
+    <Compile Include="Solution.cs" />
+    <Compile Include="SortArray.cs" />
     <Compile Include="StocksAlgo.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="StringCompression.cs" />
     <Compile Include="StringPalindrome.cs" />
+    <Compile Include="TestProgram.cs" />
     <Compile Include="TwoSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValidParanthesis.cs" />

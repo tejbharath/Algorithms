@@ -43,10 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllPathsInATree.cs" />
     <Compile Include="BalancedTree.cs" />
     <Compile Include="BinarySearchTree.cs" />
     <Compile Include="Cousins.cs" />
     <Compile Include="CycledLinkedList.cs" />
+    <Compile Include="DeleteDuplicates2.cs" />
     <Compile Include="IntersectionLinkedLists.cs" />
     <Compile Include="IsSubTree.cs" />
     <Compile Include="LargestValueInEachRow.cs" />
@@ -65,6 +67,7 @@
     <Compile Include="RobTreeProblem.cs" />
     <Compile Include="SumNodes.cs" />
     <Compile Include="SymmetricTree.cs" />
+    <Compile Include="SymmetryTreeIterative.cs" />
     <Compile Include="TreeNode.cs" />
     <Compile Include="ZigzagLevelOrder.cs" />
   </ItemGroup>

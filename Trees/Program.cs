@@ -10,9 +10,11 @@ namespace Trees
         {
             LevelOrderTraversal t = new LevelOrderTraversal();
             t.BuildTree();
-            RightSideView r = new RightSideView();
-            var list = r.RightView(t.root);
-            PrintList(list.ToList());
+            //SymmetryTreeIterative s = new SymmetryTreeIterative();
+            //Console.WriteLine(s.IsSymmetric(t.root));
+            //RightSideView r = new RightSideView();
+            //var list = r.RightView(t.root);
+            //PrintList(list.ToList());
             //var lst = t.BreadFirstTraversal();
             //PrintList(lst);
 
@@ -33,12 +35,13 @@ namespace Trees
             //LinkedList link = new LinkedList();
             //var head = link.AddNode(1);
             //link.AddNode(2);
-            //link.AddNode(3);
-            //link.AddNode(4);
-            //link.AddNode(5);
-            //link.AddNode(6);
-            //link.AddNode(7);
+            //link.AddNode(2);
             //Console.WriteLine("Original LinkedList");
+            //link.PrintAllListNodes();
+
+            //DeleteDuplicates2 d = new DeleteDuplicates2();
+            //d.DeleteDuplicates(head);
+            //Console.WriteLine("Removed Duplicates");
             //link.PrintAllListNodes();
 
             //ReorderLinkedList r = new ReorderLinkedList();
@@ -54,13 +57,22 @@ namespace Trees
             //Console.WriteLine("Removed Duplicates List");
             //link.PrintAllListNodes();
 
+            //BackTracking find all paths of a binary tree
+            AllPathsInATree all = new AllPathsInATree();
+            var lst = all.GetAllPaths(t.root);
+            PrintList(lst);
+
         }
 
-        private static void PrintList(List<int> nums)
+        private static void PrintList(IList<List<int>> nums)
         {
             foreach (var i in nums)
             {
-                Console.WriteLine(i);
+                Console.WriteLine($"List starting");
+                foreach (var item in i)
+                {
+                    Console.WriteLine(item);
+                }
             }
         }
     }

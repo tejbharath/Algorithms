@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Threading.Tasks;
 
 namespace Algorithms
 {
+
     public class Program
     {        
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             //---TWO SUM Call
             //TwoSum sum = new TwoSum();
@@ -99,10 +101,31 @@ namespace Algorithms
             //MaxProdSubArray arr = new MaxProdSubArray();
             //Console.WriteLine(arr.MaxProduct(new int[]{-1, -1}));
 
-            LongestStringPalindrome str = new LongestStringPalindrome();
-            Console.WriteLine(str.LongestPalindrome("abdd"));
+            //LongestStringPalindrome str = new LongestStringPalindrome();
+            //Console.WriteLine(str.LongestPalindrome("abdd"));
+
+            //ClosestToZero c = new ClosestToZero();
+            //Console.WriteLine(c.ClosestZero(new int[]{-9, 8, 2, -5, 7}));
+
+            //StringCompression c = new StringCompression();
+            //Console.WriteLine(c.Compress(new char[] {'a', 'a', 'b', 'b', 'c','c','c'}));
+
+            //TestProgram t = new TestProgram();
+            //var lst = t.getEven(new List<int>() {2, 4, 3, 5, 8, 9});
+            //PrintArray(lst);
+
+            var input = new string[] { "A0", "A7", "E0", "F", "E1", "F" };
+            //var input = new string[] { "A0", "A1", "A2", "E0", "F", "E1", "F" };
+            Solution s = new Solution();
+            s.AddWeaponMap("Sword", "SHIKSHIK");
+            var result = s.solution(input);
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
+
         }
-        private static void PrintArray(int[] nums)
+        private static void PrintArray(List<int> nums)
         {
             foreach (var i in nums)
             {

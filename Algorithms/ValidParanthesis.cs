@@ -6,31 +6,28 @@ namespace Algorithms
     {
         public bool IsValid(string s)
         {
+            var stack = new Stack<char>();
 
-            var stack = new Stack<string>();
-
-            for (int i = 0; i < s.Length; i++)
+            for (var i = 0; i < s.Length; i++)
             {
-
-                switch (s[i].ToString())
+                switch (s[i])
                 {
-                    case "(":
-                        stack.Push(")");
+                    case '(':
+                        stack.Push(')');
                         break;
-                    case "{":
-                        stack.Push("}");
+                    case '{':
+                        stack.Push('}');
                         break;
-                    case "[":
-                        stack.Push("]");
+                    case '[':
+                        stack.Push(']');
                         break;
                     default:
-                        if (stack.Count == 0 || s[i].ToString() != stack.Pop())
+                        if (stack.Count == 0 || s[i] != stack.Pop())
                         {
                             return false;
                         };
                         break;
                 }
-
             }
             if (stack.Count == 0)
             {

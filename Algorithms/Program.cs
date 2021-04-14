@@ -114,15 +114,24 @@ namespace Algorithms
             //var lst = t.getEven(new List<int>() {2, 4, 3, 5, 8, 9});
             //PrintArray(lst);
 
-            var input = new string[] { "A0", "A7", "E0", "F", "E1", "F" };
-            //var input = new string[] { "A0", "A1", "A2", "E0", "F", "E1", "F" };
-            Solution s = new Solution();
-            s.AddWeaponMap("Sword", "SHIKSHIK");
-            var result = s.solution(input);
-            foreach (var item in result)
-            {
-                Console.WriteLine(item);
-            }
+            //var input = new string[] { "A0", "A7", "E0", "F", "E1", "F" };
+            ////var input = new string[] { "A0", "A1", "A2", "E0", "F", "E1", "F" };
+            //Solution s = new Solution();
+            //s.AddWeaponMap("Sword", "SHIKSHIK");
+            //var result = s.solution(input);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            StringReverseRecursion rec = new StringReverseRecursion();
+            //var arr = rec.Reverse("Hello");
+            //foreach (var item in arr)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            Console.WriteLine(rec.Reverse("Hello"));
+            Console.ReadLine();
 
         }
         private static void PrintArray(List<int> nums)

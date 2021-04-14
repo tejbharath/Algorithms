@@ -72,6 +72,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="StringCompression.cs" />
     <Compile Include="StringPalindrome.cs" />
+    <Compile Include="StringReverseRecursion.cs" />
     <Compile Include="TestProgram.cs" />
     <Compile Include="TwoSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

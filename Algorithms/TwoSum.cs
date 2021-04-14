@@ -7,20 +7,18 @@ namespace Algorithms
     {
         public int[] CaluclateTwoSum(int[] nums, int target)
         {
-            var dict = new Dictionary<int, int>();
+            var map = new Dictionary<int, int>();
 
-            for (var i = 0; i < nums.Length; i++)
+            for(int i=0; i < nums.Length; i++)
             {
-                if (!dict.ContainsKey(target-nums[i]))
-                {
-                    dict.Add(nums[i], i);
+                if (!map.ContainsKey(target - nums[i])){
+                    map.Add(nums[i], i);
                 }
                 else
                 {
-                    dict.TryGetValue(target-nums[i], out int value);
-                    return new int[] { i, value };
+                    map.TryGetValue(target - nums[i], out int index);
+                    return new int[] { i, index };
                 }
-
             }
             return new int[] { 0, 0 };
         }

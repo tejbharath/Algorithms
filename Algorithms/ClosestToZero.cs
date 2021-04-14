@@ -22,10 +22,7 @@ namespace Algorithms
                     }
                 }
             }
-
-
             return closest;
-
         }
     }
 }

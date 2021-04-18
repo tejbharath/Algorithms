@@ -124,13 +124,20 @@ namespace Algorithms
             //    Console.WriteLine(item);
             //}
 
-            StringReverseRecursion rec = new StringReverseRecursion();
+            //StringReverseRecursion rec = new StringReverseRecursion();
             //var arr = rec.Reverse("Hello");
             //foreach (var item in arr)
             //{
             //    Console.WriteLine(item);
             //}
-            Console.WriteLine(rec.Reverse("Hello"));
+            //Console.WriteLine(rec.Reverse("Hello"));
+            //Console.ReadLine();
+            //MissingLeastIntegerUnsortedArray m = new MissingLeastIntegerUnsortedArray();
+            //Console.WriteLine(m.GetMissingInteger(new int[] { 1, 2, 3 }));
+            //ReverseWordsString s = new ReverseWordsString();
+            //Console.WriteLine(s.ReverseWords("This is Tej"));
+            MissingElementSortedArray m = new MissingElementSortedArray();
+            Console.WriteLine(m.MissingElements(new int[] { 1, 4, 5 }, 2));
             Console.ReadLine();
 
         }

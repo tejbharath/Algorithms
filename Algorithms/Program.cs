@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 
 namespace Algorithms
@@ -136,8 +134,10 @@ namespace Algorithms
             //Console.WriteLine(m.GetMissingInteger(new int[] { 1, 2, 3 }));
             //ReverseWordsString s = new ReverseWordsString();
             //Console.WriteLine(s.ReverseWords("This is Tej"));
-            MissingElementSortedArray m = new MissingElementSortedArray();
-            Console.WriteLine(m.MissingElements(new int[] { 1, 4, 5 }, 2));
+            //MissingElementSortedArray m = new MissingElementSortedArray();
+            //Console.WriteLine(m.MissingElements(new int[] { 1, 4, 5 }, 2));
+            BalancedString bs = new BalancedString();
+            Console.WriteLine(bs.GetBalancedStringCount("RLRRLL"));
             Console.ReadLine();
 
         }

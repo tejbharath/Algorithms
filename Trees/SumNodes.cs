@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Trees
+﻿namespace Trees
 {
     public class SumNodes
     {

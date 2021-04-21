@@ -1,7 +1,4 @@
-﻿
-using System;
-
-namespace Algorithms
+﻿namespace Algorithms
 {
     public class RotatedSortedArray
     {

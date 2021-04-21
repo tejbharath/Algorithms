@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trees", "Trees\Trees.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOrientedProgramming", "ObjectOrientedProgramming\ObjectOrientedProgramming.csproj", "{ABAFD36D-E216-4466-BBDE-A7F52EFD9FAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomDataStructures", "CustomDataStructures\CustomDataStructures.csproj", "{E1D207B1-5B39-4F3A-B4F3-AC4A39AEEB82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{ABAFD36D-E216-4466-BBDE-A7F52EFD9FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABAFD36D-E216-4466-BBDE-A7F52EFD9FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABAFD36D-E216-4466-BBDE-A7F52EFD9FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1D207B1-5B39-4F3A-B4F3-AC4A39AEEB82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D207B1-5B39-4F3A-B4F3-AC4A39AEEB82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D207B1-5B39-4F3A-B4F3-AC4A39AEEB82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D207B1-5B39-4F3A-B4F3-AC4A39AEEB82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

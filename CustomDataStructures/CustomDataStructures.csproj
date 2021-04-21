@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{615B0A6B-71BF-450B-8CD7-CE0B025735C3}</ProjectGuid>
+    <ProjectGuid>{E1D207B1-5B39-4F3A-B4F3-AC4A39AEEB82}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Algorithms</RootNamespace>
-    <AssemblyName>Algorithms</AssemblyName>
+    <RootNamespace>CustomDataStructures</RootNamespace>
+    <AssemblyName>CustomDataStructures</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,47 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayDuplicates.cs" />
-    <Compile Include="BalancedString.cs" />
-    <Compile Include="BinarySearch.cs" />
-    <Compile Include="Chocolates.cs" />
-    <Compile Include="Class1.cs" />
-    <Compile Include="ClimbingStairs.cs" />
-    <Compile Include="ClosestToZero.cs" />
-    <Compile Include="ContiguousArray.cs" />
-    <Compile Include="Factorial.cs" />
-    <Compile Include="FibanocciMemoization.cs" />
-    <Compile Include="FibanocciRecursion.cs" />
-    <Compile Include="FirstLastArray.cs" />
-    <Compile Include="FirstLastArrayBinary.cs" />
-    <Compile Include="LongestPalindromeString.cs" />
-    <Compile Include="LongestStringNoRepetition.cs" />
-    <Compile Include="LongestStringPalindrome.cs" />
-    <Compile Include="LongestSubstringVowels.cs" />
-    <Compile Include="MaxProdSubArray.cs" />
-    <Compile Include="MaxSubArray.cs" />
-    <Compile Include="MissingElementSortedArray.cs" />
-    <Compile Include="MissingLeastIntegerUnsortedArray.cs" />
-    <Compile Include="NonRepeatingCharecter.cs" />
-    <Compile Include="ProductItself.cs" />
-    <Compile Include="RemoveDuplicatesAndReturnLength.cs" />
-    <Compile Include="ReverseString.cs" />
-    <Compile Include="ReverseStringRecurssion.cs" />
-    <Compile Include="ReverseWord.cs" />
-    <Compile Include="ReverseWordsString.cs" />
-    <Compile Include="RotatedSortedArray.cs" />
-    <Compile Include="ShuffleArray.cs" />
-    <Compile Include="Solution.cs" />
-    <Compile Include="SortArray.cs" />
-    <Compile Include="StocksAlgo.cs" />
+    <Compile Include="MinStack.cs" />
+    <Compile Include="MyHashMap.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="StringCompression.cs" />
-    <Compile Include="StringPalindrome.cs" />
-    <Compile Include="StringReverseRecursion.cs" />
-    <Compile Include="TestProgram.cs" />
-    <Compile Include="TwoSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ValidParanthesis.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

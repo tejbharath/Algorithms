@@ -62,6 +62,7 @@
     <Compile Include="LongestSubstringVowels.cs" />
     <Compile Include="MaxProdSubArray.cs" />
     <Compile Include="MaxSubArray.cs" />
+    <Compile Include="MinStack.cs" />
     <Compile Include="MissingElementSortedArray.cs" />
     <Compile Include="MissingLeastIntegerUnsortedArray.cs" />
     <Compile Include="NonRepeatingCharecter.cs" />

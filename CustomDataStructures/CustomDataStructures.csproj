@@ -46,6 +46,8 @@
     <Compile Include="MinStack.cs" />
     <Compile Include="MinStackWithTwoStacks.cs" />
     <Compile Include="MyHashMap.cs" />
+    <Compile Include="MyHashSet.cs" />
+    <Compile Include="MyQueue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

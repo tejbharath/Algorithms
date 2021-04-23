@@ -73,6 +73,9 @@
     <Compile Include="ReverseWord.cs" />
     <Compile Include="ReverseWordsString.cs" />
     <Compile Include="RotatedSortedArray.cs" />
+    <Compile Include="RotatedSortedArraySinglePass.cs" />
+    <Compile Include="SearchMatrix.cs" />
+    <Compile Include="SearchSortedArrayUnknownSize.cs" />
     <Compile Include="ShuffleArray.cs" />
     <Compile Include="Solution.cs" />
     <Compile Include="SortArray.cs" />

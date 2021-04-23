@@ -2,6 +2,8 @@
 {
     public class MyHashSet
     {
+        // Did this code successfully run on Leetcode : Yes
+        // Any problem you faced while coding this : No
 
         private bool[][] arr;
         private int buckets;
@@ -15,16 +17,20 @@
             arr = new bool[buckets][];
         }
 
+        //Hash function for caluclating index of the buckets
         public int Bucket(int key)
         {
             return key % buckets;
         }
 
+        //Hash function for caluclating index of the bucket items (Nested index - index for the nested structure)
         public int BucketItem(int key)
         {
             return key / bucketItems;
         }
 
+        //Time Complexity - O(1)
+        //Space Complexity - O(n) in this method - Since we have to just allocated BucketItems here
         public void Add(int key)
         {
             var bucket = Bucket(key);
@@ -33,6 +39,9 @@
             {
                 if (bucket == 0)
                 {
+                    // If the key is 10^6, then our hash function returns 1000 for the 0th index,
+                    // where as we can only store 0 to 999 bucketItems, for this reason I am checking if the first index is 0, 
+                    // then allocate 1001 elements so that my index can go upto 1000 for the bucket 
                     arr[bucket] = new bool[bucketItems + 1];
                 }
                 else
@@ -43,6 +52,8 @@
             arr[bucket][bucketItem] = true;
         }
 
+        //Time Complexity - O(1)
+        //Space Complexity - O(1)
         public void Remove(int key)
         {
             var bucket = Bucket(key);
@@ -51,6 +62,8 @@
             arr[bucket][bucketItem] = false;
         }
 
+        //Time Complexity - O(1)
+        //Space Complexity - O(1)
         /** Returns true if this set contains the specified element */
         public bool Contains(int key)
         {

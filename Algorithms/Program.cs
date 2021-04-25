@@ -136,10 +136,12 @@ namespace Algorithms
             //Console.WriteLine(s.ReverseWords("This is Tej"));
             //MissingElementSortedArray m = new MissingElementSortedArray();
             //Console.WriteLine(m.MissingElements(new int[] { 1, 4, 5 }, 2));
-            BalancedString bs = new BalancedString();
-            Console.WriteLine(bs.GetBalancedStringCount("RLRRLL"));
+            //BalancedString bs = new BalancedString();
+            //Console.WriteLine(bs.GetBalancedStringCount("RLRRLL"));
+            //Console.ReadLine();
+            FindAnyPeakUnsortedArray p = new FindAnyPeakUnsortedArray();
+            Console.WriteLine(p.FindPeakElement(new int[] {1, 2, 3, 1 }));
             Console.ReadLine();
-
         }
         private static void PrintArray(List<int> nums)
         {

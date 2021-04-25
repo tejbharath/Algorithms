@@ -54,14 +54,17 @@
     <Compile Include="Factorial.cs" />
     <Compile Include="FibanocciMemoization.cs" />
     <Compile Include="FibanocciRecursion.cs" />
+    <Compile Include="FindAnyPeakUnsortedArray.cs" />
     <Compile Include="FirstLastArray.cs" />
     <Compile Include="FirstLastArrayBinary.cs" />
+    <Compile Include="LeftAndRightIndexTargetArray.cs" />
     <Compile Include="LongestPalindromeString.cs" />
     <Compile Include="LongestStringNoRepetition.cs" />
     <Compile Include="LongestStringPalindrome.cs" />
     <Compile Include="LongestSubstringVowels.cs" />
     <Compile Include="MaxProdSubArray.cs" />
     <Compile Include="MaxSubArray.cs" />
+    <Compile Include="MinSortedArray.cs" />
     <Compile Include="MinStack.cs" />
     <Compile Include="MissingElementSortedArray.cs" />
     <Compile Include="MissingLeastIntegerUnsortedArray.cs" />

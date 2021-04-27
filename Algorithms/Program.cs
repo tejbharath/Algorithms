@@ -139,8 +139,23 @@ namespace Algorithms
             //BalancedString bs = new BalancedString();
             //Console.WriteLine(bs.GetBalancedStringCount("RLRRLL"));
             //Console.ReadLine();
-            FindAnyPeakUnsortedArray p = new FindAnyPeakUnsortedArray();
-            Console.WriteLine(p.FindPeakElement(new int[] {1, 2, 3, 1 }));
+            //MissingElement p = new MissingElement();
+            //Console.WriteLine(p.FindMissingElementExtraArray(new int[] {1, 2, 3, 5, 6 }));
+            //GroupingAnagramAlgorithm g = new GroupingAnagramAlgorithm();
+            //var lst = g.GroupAnagrams(new string[] { "eat", "tea", "tan", "ate", "nat", "bat" });
+            //foreach (var item in lst)
+            //{
+            //    Console.Write("[");
+            //    foreach (var i in item)
+            //    {
+            //        Console.Write(i);
+            //    }
+            //    Console.Write("], ");
+            //}
+            //WordPatternAlgorithm w = new WordPatternAlgorithm();
+            //Console.WriteLine(w.WordPattern("dog cat cat dog", "abba"));
+            IsomorphicStrings s = new IsomorphicStrings();
+            Console.WriteLine(s.IsIsomorphic("add", "egg"));
             Console.ReadLine();
         }
         private static void PrintArray(List<int> nums)

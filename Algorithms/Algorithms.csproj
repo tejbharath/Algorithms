@@ -57,6 +57,9 @@
     <Compile Include="FindAnyPeakUnsortedArray.cs" />
     <Compile Include="FirstLastArray.cs" />
     <Compile Include="FirstLastArrayBinary.cs" />
+    <Compile Include="GroupingAnagramAlgorithm.cs" />
+    <Compile Include="GroupingAnagrams.cs" />
+    <Compile Include="IsomorphicStrings.cs" />
     <Compile Include="LeftAndRightIndexTargetArray.cs" />
     <Compile Include="LongestPalindromeString.cs" />
     <Compile Include="LongestStringNoRepetition.cs" />
@@ -66,6 +69,7 @@
     <Compile Include="MaxSubArray.cs" />
     <Compile Include="MinSortedArray.cs" />
     <Compile Include="MinStack.cs" />
+    <Compile Include="MissingElement.cs" />
     <Compile Include="MissingElementSortedArray.cs" />
     <Compile Include="MissingLeastIntegerUnsortedArray.cs" />
     <Compile Include="NonRepeatingCharecter.cs" />
@@ -91,6 +95,7 @@
     <Compile Include="TwoSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValidParanthesis.cs" />
+    <Compile Include="WordPatternAlgorithm.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
